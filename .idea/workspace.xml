@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55e4833f-7d66-49e7-8273-659f983ad11d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/defaultBcg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/details-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/details-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/details-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/details-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gif/loading-arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gif/loading-gear.gif" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +97,7 @@
       <workItem from="1568734224666" duration="7896000" />
       <workItem from="1568815001252" duration="9538000" />
       <workItem from="1568895905610" duration="3195000" />
-      <workItem from="1568997977223" duration="10002000" />
+      <workItem from="1568997977223" duration="10238000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Tutorial Files">
       <created>1569017454636</created>
@@ -143,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569020105286</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added default images">
+      <created>1569023881647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569023881647</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +158,8 @@
     <MESSAGE value="Minor update to Banner content" />
     <MESSAGE value="update to Contentful.js for env vars" />
     <MESSAGE value="added images for new rooms&#10;updated package.json for netlify build" />
-    <option name="LAST_COMMIT_MESSAGE" value="added images for new rooms&#10;updated package.json for netlify build" />
+    <MESSAGE value="added default images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added default images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
