@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-// import items from './data';
 import Client from './Contentful';
+import items from './data';
 
+const useLocalData = false; // set this boolean as needed for local data or contentful.com data
 const RoomContext = React.createContext();
 
 class RoomProvider extends Component {
@@ -22,9 +23,15 @@ class RoomProvider extends Component {
     };
     //getData on mount later when we get external data
     getData = async () => {
+
         try {
-            let response = await Client.getEntries({content_type:'beachResortRoom',order: 'fields.capacity,fields.type,fields.price'});
-            let rooms = this.formatData(response.items);
+            let response,rooms;
+            if (useLocalData){
+                rooms = this.formatData(items);
+            }else{
+                response = await Client.getEntries({content_type:'beachResortRoom',order: 'fields.capacity,fields.type,fields.price'});
+                rooms = this.formatData(response.items);
+            }
             let featuredRooms = rooms.filter(room => room.featured === true);
             let prices = rooms.map(item => item.price);
             let sizes = rooms.map(item => item.size);

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55e4833f-7d66-49e7-8273-659f983ad11d" name="Default Changelist" comment="">
+    <list default="true" id="55e4833f-7d66-49e7-8273-659f983ad11d" name="Default Changelist" comment="cleaned up comments">
+      <change afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoomFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoomsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomsContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SingleRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SingleRoom.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,8 @@
       <workItem from="1568734224666" duration="7896000" />
       <workItem from="1568815001252" duration="9538000" />
       <workItem from="1568895905610" duration="3195000" />
-      <workItem from="1568997977223" duration="14521000" />
+      <workItem from="1568997977223" duration="15720000" />
+      <workItem from="1569064851149" duration="3962000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Tutorial Files">
       <created>1569017454636</created>
@@ -193,11 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569027938006</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="cleaned up comments">
+      <created>1569028694788</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569028694788</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -223,7 +232,8 @@
     <MESSAGE value="fix for relative paths in package.json" />
     <MESSAGE value="Trying a fix for redirect" />
     <MESSAGE value="Trying a fix for redirect in public folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying a fix for redirect in public folder" />
+    <MESSAGE value="cleaned up comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -231,7 +241,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/data.js</url>
           <line>55</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
