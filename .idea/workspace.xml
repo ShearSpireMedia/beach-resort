@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55e4833f-7d66-49e7-8273-659f983ad11d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/src/_redirects" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +102,7 @@
       <workItem from="1568734224666" duration="7896000" />
       <workItem from="1568815001252" duration="9538000" />
       <workItem from="1568895905610" duration="3195000" />
-      <workItem from="1568997977223" duration="12761000" />
+      <workItem from="1568997977223" duration="13236000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Tutorial Files">
       <created>1569017454636</created>
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569025761349</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix for relative paths in package.json">
+      <created>1569026837397</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569026837398</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
