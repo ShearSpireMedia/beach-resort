@@ -22,20 +22,6 @@ function App() {
 }
 /*
 Tutorial at https://www.youtube.com/watch?v=LXJOvkVYQqA
-9-13-2019
-Left off at 25:30 in the video
-
-9-15-2019
-Left off at 1:49:09 in the video
-
-9-16-2019
-Left off at 2:31:22
-
-9-17-2019
-Left off at 3:26:29
-
-9-18-2019
-Left off at 4:32:02
 
 for icons
 https://react-icons.netlify.com/#/
