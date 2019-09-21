@@ -30,7 +30,7 @@ class RoomProvider extends Component {
             let sizes = rooms.map(item => item.size);
             let maxPrice = Math.max(...prices);
             let maxSize = Math.max(...sizes);
-            console.log(prices,maxPrice,sizes,maxSize);
+            //console.log(prices,maxPrice,sizes,maxSize);
             this.setState({
                 rooms,
                 featuredRooms,

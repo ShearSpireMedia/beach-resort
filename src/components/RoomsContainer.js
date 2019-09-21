@@ -9,7 +9,7 @@ function RoomsContainer({context}){
     if (loading){
         return <Loading />
     }
-    console.log(context);
+    //console.log(context);
     return (
         <>
             <RoomFilter rooms={rooms} />

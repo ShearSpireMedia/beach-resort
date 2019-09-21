@@ -10,12 +10,12 @@ const getUnique = (items,value) => {
 
 
 function RoomFilter({rooms}) {
-    console.log(rooms);
+    //console.log(rooms);
     let types = getUnique(rooms,"type");
     types = ['all',...types];
     let capacities = getUnique(rooms,"capacity");
-    let prices = getUnique(rooms,"price");
-    console.log(types,prices);
+    //let prices = getUnique(rooms,"price");
+    //console.log(types,prices);
     types = types.map((item,index) => {
         return <option value={item} key={index}>{item}</option>
     });
