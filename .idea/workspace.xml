@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55e4833f-7d66-49e7-8273-659f983ad11d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/gif/loading-arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gif/loading-gear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_redirects" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       <workItem from="1568734224666" duration="7896000" />
       <workItem from="1568815001252" duration="9538000" />
       <workItem from="1568895905610" duration="3195000" />
-      <workItem from="1568997977223" duration="10238000" />
+      <workItem from="1568997977223" duration="10580000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Tutorial Files">
       <created>1569017454636</created>
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569023881647</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added loading images">
+      <created>1569024012618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569024012618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +165,8 @@
     <MESSAGE value="update to Contentful.js for env vars" />
     <MESSAGE value="added images for new rooms&#10;updated package.json for netlify build" />
     <MESSAGE value="added default images" />
-    <option name="LAST_COMMIT_MESSAGE" value="added default images" />
+    <MESSAGE value="added loading images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added loading images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
