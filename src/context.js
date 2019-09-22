@@ -23,7 +23,6 @@ class RoomProvider extends Component {
     };
     //getData on mount later when we get external data
     getData = async () => {
-
         try {
             let response,rooms;
             if (useLocalData){
@@ -37,7 +36,6 @@ class RoomProvider extends Component {
             let sizes = rooms.map(item => item.size);
             let maxPrice = Math.max(...prices);
             let maxSize = Math.max(...sizes);
-            //console.log(prices,maxPrice,sizes,maxSize);
             this.setState({
                 rooms,
                 featuredRooms,
@@ -47,8 +45,6 @@ class RoomProvider extends Component {
                 maxPrice,
                 maxSize
             });
-            //console.log(rooms);
-
         } catch (error){
             console.log(error);
         }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55e4833f-7d66-49e7-8273-659f983ad11d" name="Default Changelist" comment="cleaned up comments">
-      <change afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
+    <list default="true" id="55e4833f-7d66-49e7-8273-659f983ad11d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,7 +106,8 @@
       <workItem from="1568815001252" duration="9538000" />
       <workItem from="1568895905610" duration="3195000" />
       <workItem from="1568997977223" duration="15720000" />
-      <workItem from="1569064851149" duration="3962000" />
+      <workItem from="1569064851149" duration="18805000" />
+      <workItem from="1569147876937" duration="2567000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Tutorial Files">
       <created>1569017454636</created>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569028694788</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Created option to use local data for testing">
+      <created>1569073857773</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569073857773</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,17 +241,7 @@
     <MESSAGE value="Trying a fix for redirect" />
     <MESSAGE value="Trying a fix for redirect in public folder" />
     <MESSAGE value="cleaned up comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up comments" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data.js</url>
-          <line>55</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Created option to use local data for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created option to use local data for testing" />
   </component>
 </project>
