@@ -43,7 +43,7 @@ function RoomFilter({rooms}) {
                     </select>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="prices">Room Price ${price}</label>
+                    <label htmlFor="price">Room Price ${price}</label>
                     <input type="range" name="price" id="price" value={price} step="10" min={minPrice} max={maxPrice} className="form-control" onChange={handleChange} />
                 </div>
                 <div className="form-group">
